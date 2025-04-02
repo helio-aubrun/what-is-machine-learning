@@ -1,0 +1,19 @@
+Dans le domaine de l'apprentissage automatique, la gestion et la division appropriée des données sont essentielles pour développer des modèles performants et fiables. Les ensembles de données sont généralement segmentés en trois catégories principales : les données d'entraînement, les données de validation et les données de test. Chacune de ces catégories joue un rôle distinct dans le processus de modélisation.
+
+Données d'entraînement
+Les données d'entraînement constituent le fondement sur lequel le modèle est construit. Elles sont utilisées pour ajuster les paramètres internes du modèle, lui permettant ainsi d'apprendre les relations et les motifs présents dans les données. Par exemple, dans un réseau de neurones artificiels, les poids des connexions entre neurones sont ajustés en fonction des données d'entraînement. Il est crucial que cet ensemble soit représentatif du problème à traiter pour que le modèle puisse généraliser efficacement à de nouvelles données. 
+FR.WIKIPEDIA.ORG
+
+Données de validation
+Les données de validation sont utilisées pour évaluer le modèle pendant sa phase d'entraînement. Elles permettent d'ajuster les hyperparamètres du modèle, tels que la complexité de l'architecture ou les taux d'apprentissage, afin d'optimiser ses performances. Cet ensemble aide également à détecter le surapprentissage (overfitting) en signalant si le modèle commence à trop s'adapter aux données d'entraînement au détriment de sa capacité à généraliser. Par exemple, dans le cadre de l'arrêt anticipé (early stopping), l'entraînement est interrompu lorsque l'erreur sur les données de validation augmente, indiquant un surapprentissage. 
+FR.WIKIPEDIA.ORG
+
+Données de test
+Les données de test fournissent une évaluation impartiale des performances finales du modèle après l'entraînement complet. Cet ensemble, distinct des données d'entraînement et de validation, est utilisé pour estimer la capacité du modèle à généraliser sur des données inédites. Une performance élevée sur les données de test suggère que le modèle est prêt pour une application pratique. 
+FR.WIKIPEDIA.ORG
+
+Répartition des ensembles de données
+La division des données disponibles en ensembles d'entraînement, de validation et de test doit être effectuée avec soin pour assurer une évaluation précise du modèle. Une répartition courante consiste à allouer environ 70 % des données à l'entraînement, 15 % à la validation et 15 % au test. Cependant, ces proportions peuvent varier en fonction de la taille totale des données et des exigences spécifiques du projet. 
+IARTIFICIAL.BLOG
+
+En conclusion, la compréhension et la mise en œuvre appropriée de la segmentation des données en ensembles d'entraînement, de validation et de test sont fondamentales pour développer des modèles d'apprentissage automatique robustes et performants. Cette approche garantit que les modèles ne se contentent pas de mémoriser les données d'entraînement, mais qu'ils acquièrent une véritable capacité à généraliser leurs prédictions à de nouvelles données.

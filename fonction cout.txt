@@ -1,0 +1,33 @@
+En **apprentissage automatique**, une **fonction de coût** (également appelée fonction de perte ou fonction d'erreur) est une fonction mathématique qui mesure l'écart entre les prédictions d'un modèle et les valeurs réelles attendues. Elle quantifie la performance du modèle en attribuant un coût aux erreurs de prédiction, guidant ainsi le processus d'optimisation pour améliorer la précision du modèle. citeturn0search0
+
+## Rôle de la fonction de coût
+
+La fonction de coût joue un rôle central dans l'entraînement des modèles d'apprentissage automatique :
+
+- **Évaluation des performances** : Elle fournit une mesure quantitative de l'erreur commise par le modèle, permettant d'évaluer sa précision.
+
+- **Guidage de l'optimisation** : En minimisant la valeur de la fonction de coût, les algorithmes d'optimisation ajustent les paramètres du modèle pour améliorer ses performances.
+
+## Types courants de fonctions de coût
+
+Le choix de la fonction de coût dépend du type de problème à résoudre :
+
+1. **Erreur quadratique moyenne (Mean Squared Error - MSE)** : Utilisée principalement pour les problèmes de régression, elle calcule la moyenne des carrés des écarts entre les valeurs prédites et réelles. Cette fonction pénalise fortement les grandes erreurs. citeturn0search4
+
+2. **Erreur absolue moyenne (Mean Absolute Error - MAE)** : Aussi utilisée en régression, elle mesure la moyenne des valeurs absolues des écarts entre les prédictions et les observations réelles, offrant une robustesse accrue face aux valeurs aberrantes.
+
+3. **Entropie croisée (Cross-Entropy Loss)** : Couramment employée pour les problèmes de classification, elle évalue la distance entre les distributions de probabilité prédites et réelles, pénalisant les écarts en attribuant un coût plus élevé aux prédictions incorrectes avec une forte confiance.
+
+## Processus d'optimisation
+
+Pour minimiser la fonction de coût, des algorithmes d'optimisation tels que la **descente de gradient** sont utilisés. La descente de gradient ajuste itérativement les paramètres du modèle dans la direction opposée au gradient de la fonction de coût, réduisant ainsi progressivement l'erreur. citeturn0search11
+
+## Importance du choix de la fonction de coût
+
+Le choix approprié de la fonction de coût est crucial, car il influence directement la manière dont le modèle apprend à partir des données :
+
+- **Alignement avec l'objectif** : La fonction de coût doit refléter fidèlement les objectifs spécifiques du problème pour garantir que l'optimisation conduit à des solutions pertinentes.
+
+- **Sensibilité aux outliers** : Certaines fonctions de coût, comme le MSE, sont sensibles aux valeurs aberrantes, tandis que d'autres, comme le MAE, le sont moins. Le choix dépend donc de la nature des données et de la tolérance aux outliers.
+
+En résumé, la fonction de coût est un élément fondamental en apprentissage automatique, servant de guide pour l'entraînement des modèles en quantifiant les erreurs de prédiction et en orientant le processus d'optimisation vers une meilleure performance. 

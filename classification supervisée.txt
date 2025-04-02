@@ -1,0 +1,45 @@
+La classification supervisée est une technique d'apprentissage automatique où un modèle est entraîné à partir de données étiquetées pour attribuer des catégories ou des classes à de nouvelles observations. Cette approche est largement utilisée dans divers domaines pour automatiser la prise de décision et l'analyse de données.
+
+Principe de la classification supervisée
+Dans la classification supervisée, le processus commence par la constitution d'un ensemble de données d'entraînement composé de paires (entrée, sortie), où chaque entrée est associée à une sortie connue. L'algorithme apprend à identifier les relations entre les caractéristiques des entrées et leurs classes correspondantes. Une fois l'entraînement terminé, le modèle peut prédire la classe d'une nouvelle entrée en se basant sur les connaissances acquises.
+
+Algorithmes couramment utilisés
+Plusieurs algorithmes sont fréquemment employés pour la classification supervisée :
+
+Arbres de décision : Structures arborescentes qui segmentent les données en fonction de caractéristiques spécifiques, facilitant ainsi l'interprétation des décisions.
+
+Machines à vecteurs de support (SVM) : Algorithmes qui cherchent à trouver l'hyperplan optimal séparant les différentes classes dans un espace de caractéristiques.
+
+k plus proches voisins (k-NN) : Méthode qui classe une nouvelle observation en fonction des classes majoritaires de ses k voisins les plus proches.
+
+Réseaux de neurones artificiels : Modèles inspirés du cerveau humain, composés de couches de neurones interconnectés, capables de modéliser des relations complexes entre les données.
+
+Classification naïve bayésienne : Algorithme basé sur le théorème de Bayes, supposant l'indépendance entre les caractéristiques, utilisé pour des tâches de classification rapide et efficace.
+
+Applications de la classification supervisée
+La classification supervisée est utilisée dans de nombreux domaines :
+
+Détection de spams : Identifier et filtrer les courriels indésirables.
+
+Reconnaissance d'images : Classer des images en catégories, comme la reconnaissance de visages ou d'objets.
+
+Diagnostic médical : Aider à identifier des maladies en se basant sur des symptômes et des résultats d'examens.
+
+Analyse de sentiments : Déterminer l'opinion ou l'émotion exprimée dans un texte, utile pour les études de marché et la surveillance des réseaux sociaux.
+
+Évaluation des performances
+Pour mesurer l'efficacité d'un modèle de classification supervisée, plusieurs métriques sont utilisées :
+
+Matrice de confusion : Tableau récapitulatif montrant les prédictions correctes et incorrectes du modèle pour chaque classe.
+
+Précision : Proportion de prédictions correctes parmi l'ensemble des prédictions effectuées.
+
+Rappel (sensibilité) : Capacité du modèle à identifier correctement toutes les instances d'une classe donnée.
+
+F-mesure : Moyenne harmonique de la précision et du rappel, offrant un équilibre entre les deux métriques.
+
+Ces outils permettent d'ajuster et d'améliorer les modèles pour obtenir des performances optimales.
+
+En conclusion, la classification supervisée est une composante essentielle de l'apprentissage automatique, offrant des solutions efficaces pour une variété de problèmes nécessitant une catégorisation précise des données.
+
+sources : datascientest.com, kongakura.fr

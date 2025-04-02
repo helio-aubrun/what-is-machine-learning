@@ -1,0 +1,34 @@
+La classification non supervisée, également appelée clustering, est une technique d'apprentissage automatique visant à regrouper des données non étiquetées en ensembles homogènes. Contrairement à la classification supervisée, où les catégories sont prédéfinies, la classification non supervisée explore les structures cachées des données pour identifier des groupements naturels sans connaissance préalable des classes.
+
+Principes de la classification non supervisée
+L'objectif principal de la classification non supervisée est de découvrir des motifs ou des structures sous-jacentes dans un ensemble de données. Les algorithmes analysent les similarités entre les données pour les regrouper en clusters, de manière à ce que les éléments d'un même cluster soient plus similaires entre eux qu'avec ceux des autres clusters. Cette approche est particulièrement utile pour l'exploration de données, la réduction de dimensionnalité et la découverte de connaissances cachées.
+
+Méthodes courantes
+Parmi les techniques de classification non supervisée les plus répandues, on trouve :
+
+Algorithme des k-moyennes (k-means) : Cet algorithme partitionne les données en k clusters en minimisant la variance au sein de chaque cluster. Il est largement utilisé en raison de sa simplicité et de son efficacité.
+
+Classification ascendante hiérarchique (CAH) : Cette méthode construit une hiérarchie de clusters en fusionnant successivement les plus proches jusqu'à obtenir une structure arborescente appelée dendrogramme.
+
+Algorithme des k-médoïdes : Similaire au k-means, mais utilise des points réels du dataset comme centres de clusters, ce qui le rend plus robuste aux outliers.
+
+Modèles de mélanges gaussiens : Cette approche probabiliste suppose que les données sont générées par un mélange de distributions gaussiennes et utilise des techniques comme l'algorithme EM (Expectation-Maximization) pour estimer les paramètres.
+
+Applications
+La classification non supervisée est utilisée dans divers domaines :
+
+Segmentation de la clientèle : Identifier des groupes de clients aux comportements similaires pour adapter les stratégies marketing.
+
+Analyse d'images : Regrouper des pixels ou des régions d'images pour la reconnaissance de formes ou la segmentation d'objets.
+
+Bioinformatique : Classer des gènes ou des protéines en fonction de leurs expressions ou structures pour comprendre des fonctions biologiques.
+
+Exploration de données textuelles : Regrouper des documents ou des articles en thèmes ou sujets similaires pour faciliter la recherche d'informations.
+
+Avantages et limitations
+Parmi les avantages de la classification non supervisée, on note sa capacité à traiter de grandes quantités de données sans nécessiter d'étiquetage préalable, ce qui permet de découvrir des structures ou des patterns cachés. Cependant, elle présente également des défis, tels que la détermination du nombre optimal de clusters, la sensibilité aux paramètres initiaux et la difficulté d'interprétation des résultats.
+
+En conclusion, la classification non supervisée est un outil puissant pour l'analyse exploratoire des données, offrant des perspectives précieuses dans de nombreux domaines scientifiques et industriels.
+
+
+Sources

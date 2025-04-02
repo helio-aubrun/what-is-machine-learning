@@ -1,0 +1,35 @@
+L'apprentissage non supervisé est une branche de l'apprentissage automatique où les algorithmes analysent des données non étiquetées pour en extraire des structures ou des motifs cachés sans intervention humaine. Contrairement à l'apprentissage supervisé, qui utilise des données étiquetées pour entraîner des modèles à prédire des sorties spécifiques, l'apprentissage non supervisé vise à découvrir des relations intrinsèques au sein des données elles-mêmes.
+
+Méthodes principales de l'apprentissage non supervisé
+Parmi les techniques couramment utilisées en apprentissage non supervisé, on distingue :
+
+Clustering (regroupement) : Cette méthode consiste à partitionner un ensemble de données en sous-groupes homogènes, appelés clusters, où les éléments d'un même cluster sont plus similaires entre eux qu'avec ceux des autres clusters. Des algorithmes tels que les k-moyennes ou la classification hiérarchique sont fréquemment utilisés pour cette tâche. 
+IBM.COM
+
+Réduction de dimensionnalité : Cette approche vise à diminuer le nombre de variables descriptives d'un jeu de données tout en conservant l'essentiel de l'information. Des techniques comme l'analyse en composantes principales (ACP) ou les autoencodeurs sont employées pour faciliter la visualisation des données et améliorer l'efficacité des modèles. 
+IBM.COM
+
+Apprentissage des règles d'association : Cette technique identifie des relations ou des cooccurrences fréquentes entre les variables d'un ensemble de données. Elle est particulièrement utile pour des analyses telles que le panier d'achat, où l'on cherche à déterminer quels produits sont souvent achetés ensemble. 
+IBM.COM
+
+Applications de l'apprentissage non supervisé
+L'apprentissage non supervisé trouve des applications dans divers domaines :
+
+Marketing et segmentation de la clientèle : Les entreprises utilisent le clustering pour segmenter leur clientèle en groupes homogènes, ce qui permet de personnaliser les offres et les stratégies marketing en fonction des caractéristiques spécifiques de chaque segment. 
+INTELLIGENCE-ARTIFICIELLE-SCHOOL.COM
+
+Détection d'anomalies : Dans les secteurs financiers et de la cybersécurité, l'apprentissage non supervisé aide à identifier des transactions frauduleuses ou des activités suspectes en repérant des comportements inhabituels dans les données. 
+FR.LINEDATA.COM
+
+Traitement du langage naturel (NLP) : Les techniques non supervisées sont utilisées pour regrouper des documents similaires, extraire des thèmes récurrents ou encore pour la réduction de dimensionnalité dans des tâches de classification de textes. 
+INTELLIGENCE-ARTIFICIELLE-SCHOOL.COM
+
+Vision par ordinateur : L'apprentissage non supervisé est employé pour la segmentation d'images, la reconnaissance de formes et l'extraction de caractéristiques, facilitant ainsi des tâches comme la détection d'objets ou la classification d'images. 
+IBM.COM
+
+Avantages et défis
+Parmi les avantages de l'apprentissage non supervisé, on note sa capacité à traiter de grandes quantités de données non étiquetées, réduisant ainsi le besoin d'un étiquetage manuel souvent coûteux et chronophage. De plus, il permet de découvrir des structures ou des relations insoupçonnées au sein des données, ouvrant la voie à de nouvelles perspectives et insights.
+
+Cependant, l'apprentissage non supervisé présente également des défis. L'absence de labels rend l'évaluation des performances des modèles plus complexe, et les résultats peuvent parfois être difficiles à interpréter. De plus, la détermination du nombre optimal de clusters ou de dimensions réduites nécessite souvent une expertise approfondie et peut varier en fonction des jeux de données.
+
+En conclusion, l'apprentissage non supervisé est un outil puissant pour explorer et analyser des données non étiquetées, offrant des solutions innovantes dans de nombreux domaines. Son utilisation appropriée peut révéler des informations précieuses et contribuer à la prise de décisions éclairées.

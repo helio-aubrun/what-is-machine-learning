@@ -1,0 +1,30 @@
+La corrélation linéaire de Pearson est une mesure statistique qui évalue la force et la direction de la relation linéaire entre deux variables quantitatives continues. Développé par Karl Pearson, ce coefficient, noté r, varie entre -1 et 1. Une valeur de 1 indique une corrélation positive parfaite, -1 une corrélation négative parfaite, et 0 l'absence de corrélation linéaire. 
+BIOSTAT.ULG.AC.BE
+
+Calcul du coefficient de corrélation de Pearson
+Le coefficient de corrélation de Pearson est défini comme le rapport entre la covariance des deux variables et le produit de leurs écarts types :
+
+DATATAB.FR
+
+Interprétation du coefficient
+|r| proche de 1 : Forte corrélation linéaire.
+|r| proche de 0 : Faible ou absence de corrélation linéaire.
+Il est essentiel de noter qu'une corrélation n'implique pas nécessairement une causalité. Deux variables peuvent être corrélées sans que l'une soit la cause de l'autre. 
+SOEPIDEMIO.COM
+
+Conditions d'utilisation
+L'utilisation du coefficient de corrélation de Pearson est appropriée lorsque :
+
+Les variables sont continues et approximativement distribuées selon une loi normale.
+La relation entre les variables est linéaire.
+Les données sont exemptes de valeurs aberrantes significatives, car celles-ci peuvent influencer fortement le coefficient.
+Si ces conditions ne sont pas remplies, des méthodes alternatives, telles que les coefficients de corrélation de Spearman ou de Kendall, peuvent être plus appropriées. 
+STHDA.COM
+
+Applications
+La corrélation de Pearson est largement utilisée dans divers domaines :
+
+Sciences sociales : Pour examiner la relation entre des variables telles que le revenu et le niveau d'éducation.
+Médecine : Pour évaluer l'association entre deux mesures cliniques.
+Économie : Pour analyser la relation entre différents indicateurs économiques.
+En résumé, le coefficient de corrélation linéaire de Pearson est un outil précieux pour quantifier la relation linéaire entre deux variables continues, à condition que les hypothèses sous-jacentes soient respectées.

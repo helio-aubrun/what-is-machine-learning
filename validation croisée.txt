@@ -1,0 +1,33 @@
+La validation croisée est une technique essentielle en apprentissage automatique et en statistique, utilisée pour évaluer la performance et la capacité de généralisation d'un modèle sur des données indépendantes de celles utilisées pour son entraînement. Elle permet de détecter des problèmes tels que le surapprentissage (overfitting) et d'assurer que le modèle fonctionne efficacement sur des données inédites.
+
+Principe de la validation croisée
+Le concept central de la validation croisée consiste à diviser l'ensemble de données disponible en plusieurs sous-ensembles, puis à entraîner et tester le modèle sur différentes combinaisons de ces sous-ensembles. Cette approche fournit une estimation plus fiable de la performance du modèle en réduisant la variance associée à une simple division des données en ensembles d'entraînement et de test.
+
+Méthodes courantes de validation croisée
+Validation croisée k-fold : L'ensemble de données est divisé en k sous-ensembles (ou "plis") de taille égale. Le modèle est entraîné k fois, chaque fois en utilisant k-1 plis pour l'entraînement et le pli restant pour le test. Les performances sont ensuite moyennées sur les k itérations pour obtenir une estimation globale. 
+FR.WIKIPEDIA.ORG
+
+Leave-One-Out Cross-Validation (LOOCV) : Cas particulier de la validation croisée k-fold où k est égal au nombre total d'observations. Chaque observation est utilisée une fois comme ensemble de test, tandis que les autres servent à l'entraînement. Cette méthode est exhaustive mais peut être coûteuse en termes de calcul pour de grands ensembles de données. 
+FR.WIKIPEDIA.ORG
+
+Validation croisée stratifiée : Variante de la validation croisée k-fold où les plis sont constitués de manière à respecter la proportion des classes présentes dans l'ensemble de données initial. Cette méthode est particulièrement utile lorsque les classes sont déséquilibrées. 
+INTELLIGENCE-ARTIFICIELLE-SCHOOL.COM
+
+Avantages de la validation croisée
+Détection du surapprentissage : En évaluant le modèle sur des données non vues pendant l'entraînement, la validation croisée aide à identifier si le modèle s'adapte trop spécifiquement aux données d'entraînement, compromettant ainsi sa capacité de généralisation. 
+FR.WIKIPEDIA.ORG
+
+Utilisation efficace des données : Elle permet de maximiser l'utilisation des données disponibles, ce qui est particulièrement avantageux lorsque la quantité de données est limitée. 
+INTELLIGENCE-ARTIFICIELLE-SCHOOL.COM
+
+Évaluation robuste : En fournissant une estimation plus stable de la performance du modèle, la validation croisée réduit la variance associée à une simple division des données en ensembles d'entraînement et de test. 
+DATACAMP.COM
+
+Limites et considérations
+Bien que puissante, la validation croisée présente certaines limitations :
+
+Coût computationnel : Pour de grands ensembles de données ou des modèles complexes, la répétition des entraînements peut être coûteuse en temps et en ressources.
+
+Indépendance des observations : La validation croisée suppose que les observations sont indépendantes. Dans le cas de données temporelles ou spatiales, des adaptations spécifiques, comme la validation croisée pour séries temporelles, sont nécessaires.
+
+En conclusion, la validation croisée est un outil indispensable pour évaluer et améliorer la performance des modèles en apprentissage automatique, garantissant leur robustesse et leur capacité à généraliser sur des données inédites.

@@ -1,0 +1,45 @@
+L'apprentissage supervisé est une branche de l'apprentissage automatique où un modèle est formé à partir de données étiquetées, c'est-à-dire des ensembles de données où chaque entrée est associée à une sortie connue. L'objectif est que le modèle apprenne la relation entre les entrées et les sorties afin de pouvoir prédire correctement la sortie pour de nouvelles entrées non vues auparavant. 
+
+
+Types de problèmes en apprentissage supervisé
+Les problèmes traités par l'apprentissage supervisé se divisent principalement en deux catégories :
+
+Classification : Attribuer une entrée à une ou plusieurs catégories prédéfinies. Par exemple, déterminer si un e-mail est un spam ou non.
+
+Régression : Prédire une valeur continue en fonction des données d'entrée. Par exemple, estimer le prix d'un bien immobilier basé sur ses caractéristiques.
+
+Algorithmes couramment utilisés
+Plusieurs algorithmes sont fréquemment employés en apprentissage supervisé :
+
+Régression linéaire : Utilisée pour des problèmes de régression afin de modéliser la relation entre une variable dépendante et une ou plusieurs variables indépendantes.
+
+Régression logistique : Employée pour des problèmes de classification binaire, elle modélise la probabilité qu'une donnée appartienne à une catégorie spécifique.
+
+Arbres de décision : Structures arborescentes qui divisent les données en segments basés sur des tests sur les caractéristiques, utilisées pour la classification et la régression.
+
+Machines à vecteurs de support (SVM) : Algorithmes qui cherchent à trouver l'hyperplan optimal séparant les différentes classes dans les données.
+
+k plus proches voisins (k-NN) : Méthode qui classe une donnée en fonction des classes majoritaires de ses k voisins les plus proches dans l'espace des caractéristiques.
+
+Réseaux de neurones artificiels : Modèles inspirés du cerveau humain, composés de couches de neurones interconnectés, capables de modéliser des relations complexes dans les données.
+
+Applications de l'apprentissage supervisé
+L'apprentissage supervisé est largement utilisé dans divers domaines :
+
+Détection de spams : Identifier et filtrer les e-mails indésirables.
+
+Reconnaissance d'images : Classer des images en catégories, comme la reconnaissance faciale ou la détection d'objets.
+
+Analyse prédictive : Prévoir des tendances futures basées sur des données historiques, par exemple dans la finance ou le marketing.
+
+Diagnostic médical : Aider à identifier des maladies en se basant sur des symptômes et des résultats d'examens.
+
+Systèmes de recommandation : Suggérer des produits ou des contenus aux utilisateurs en fonction de leurs préférences passées.
+
+Avantages et défis
+Parmi les avantages de l'apprentissage supervisé, on note sa capacité à produire des modèles précis et interprétables lorsqu'il est entraîné sur des données de qualité. Cependant, il nécessite une quantité substantielle de données étiquetées, ce qui peut être coûteux et chronophage à obtenir. De plus, un modèle peut souffrir de surapprentissage (overfitting) s'il est trop ajusté aux données d'entraînement, ce qui réduit sa capacité à généraliser sur de nouvelles données.
+
+En conclusion, l'apprentissage supervisé est un outil puissant pour résoudre des problèmes où des données étiquetées sont disponibles, offrant des solutions efficaces dans de nombreux secteurs.
+
+
+Sources salesforce.com

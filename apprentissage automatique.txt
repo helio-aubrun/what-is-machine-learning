@@ -1,0 +1,60 @@
+L'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning) sont deux branches essentielles de l'intelligence artificielle (IA), jouant un rôle crucial dans l'analyse et l'interprétation des données.
+
+Apprentissage automatique
+L'apprentissage automatique est une discipline de l'IA qui développe des algorithmes permettant aux machines d'apprendre à partir de données et de prendre des décisions ou de faire des prédictions sans être explicitement programmées pour chaque tâche. Ces algorithmes identifient des motifs et des relations dans les données, améliorant ainsi leurs performances au fil du temps grâce à l'expérience accumulée.
+
+Types d'apprentissage automatique
+Apprentissage supervisé : L'algorithme est formé à partir de données étiquetées, c'est-à-dire des ensembles de données où les entrées sont associées à des sorties connues. L'objectif est de prédire la sortie pour de nouvelles entrées. 
+FR.WIKIPEDIA.ORG
+
+Apprentissage non supervisé : L'algorithme analyse des données non étiquetées pour identifier des structures ou des motifs cachés, tels que des regroupements ou des associations.
+
+Apprentissage semi-supervisé : Combinaison des deux approches précédentes, où l'algorithme est formé sur un ensemble de données partiellement étiqueté.
+
+Apprentissage par renforcement : L'agent apprend en interagissant avec un environnement, recevant des récompenses ou des punitions en fonction de ses actions, afin de maximiser une récompense cumulative.
+
+Applications de l'apprentissage automatique
+L'apprentissage automatique est omniprésent dans divers secteurs :
+
+Finance : Détection de fraudes et analyse prédictive des marchés.
+
+Santé : Diagnostic assisté par ordinateur et analyse d'images médicales.
+
+Marketing : Segmentation de la clientèle et recommandations personnalisées.
+
+Transport : Optimisation des itinéraires et développement de véhicules autonomes.
+
+Apprentissage profond
+L'apprentissage profond est une sous-catégorie de l'apprentissage automatique qui utilise des réseaux de neurones artificiels composés de multiples couches pour modéliser des représentations hiérarchiques des données. Cette approche est particulièrement efficace pour traiter des données non structurées telles que les images, le son et le texte.
+
+Caractéristiques de l'apprentissage profond
+Réseaux de neurones profonds : Composés de plusieurs couches cachées entre l'entrée et la sortie, permettant de capturer des caractéristiques complexes des données.
+
+Apprentissage de représentations : Capacité à extraire automatiquement des caractéristiques pertinentes des données brutes, réduisant ainsi le besoin de prétraitement manuel.
+
+Applications de l'apprentissage profond
+L'apprentissage profond a révolutionné plusieurs domaines :
+
+Vision par ordinateur : Reconnaissance faciale, détection d'objets et analyse d'images.
+
+Traitement du langage naturel : Traduction automatique, analyse de sentiments et génération de texte.
+
+Santé : Analyse d'images médicales pour la détection précoce de maladies.
+
+Jeux vidéo : Développement d'agents capables de surpasser des joueurs humains dans des jeux complexes.
+
+Défis et perspectives
+Malgré leurs succès, l'apprentissage automatique et l'apprentissage profond présentent des défis :
+
+Données massives : Nécessité de grandes quantités de données pour entraîner des modèles performants.
+
+Puissance de calcul : Exigence de ressources informatiques importantes, notamment pour l'apprentissage profond.
+
+Interprétabilité : Complexité à comprendre et expliquer les décisions prises par des modèles profonds.
+
+Les recherches actuelles se concentrent sur le développement de modèles plus efficaces, capables d'apprendre avec moins de données et de ressources, tout en améliorant leur transparence et leur robustesse.
+
+En conclusion, l'apprentissage automatique et l'apprentissage profond sont des piliers fondamentaux de l'intelligence artificielle moderne, offrant des solutions innovantes à des problèmes complexes et transformant de nombreux secteurs de la société.
+
+
+Sources WIKIPEDIA

@@ -1,0 +1,37 @@
+La descente de gradient est un algorithme d'optimisation fondamental en apprentissage automatique et en mathématiques, utilisé pour minimiser une fonction en ajustant iterativement ses paramètres dans la direction opposée à celle du gradient de la fonction au point courant. Cette approche permet de trouver les minima locaux d'une fonction différentiable, ce qui est essentiel pour entraîner des modèles de machine learning et des réseaux de neurones. 
+IBM.COM
+
+Principe de la descente de gradient
+L'idée principale de la descente de gradient repose sur le fait que le gradient d'une fonction en un point donné indique la direction de la plus forte augmentation de cette fonction. Ainsi, en se déplaçant dans la direction opposée au gradient, on diminue la valeur de la fonction, s'approchant ainsi de son minimum. Mathématiquement, si 
+
+
+Variantes de la descente de gradient
+Plusieurs variantes de la descente de gradient existent pour améliorer son efficacité :
+
+Descente de gradient par mini-lots (Mini-batch Gradient Descent) : Combine les approches batch et stochastique en utilisant un sous-ensemble aléatoire de données pour chaque mise à jour, équilibrant ainsi efficacité et stabilité.
+
+Descente de gradient avec momentum : Ajoute une composante de mémoire aux mises à jour pour accélérer la convergence en direction des minima en accumulant une fraction des mises à jour précédentes.
+
+Algorithme du gradient stochastique (SGD) : Met à jour les paramètres pour chaque exemple de données individuellement, ce qui introduit du bruit mais peut conduire à une convergence plus rapide et permet de s'échapper des minima locaux. 
+FR.WIKIPEDIA.ORG
+
+Applications en apprentissage automatique
+La descente de gradient est largement utilisée pour entraîner divers modèles d'apprentissage automatique, notamment :
+
+Régression linéaire et logistique : Pour ajuster les coefficients du modèle en minimisant une fonction de coût.
+
+Réseaux de neurones artificiels : Utilisée conjointement avec l'algorithme de rétropropagation pour ajuster les poids synaptiques et minimiser l'erreur de prédiction. 
+IBM.COM
+
+Machines à vecteurs de support (SVM) : Pour optimiser la marge entre les classes en ajustant les vecteurs de support.
+
+Défis et considérations
+Bien que puissante, la descente de gradient présente certains défis :
+
+Choix du taux d'apprentissage : Un taux trop élevé peut entraîner une divergence, tandis qu'un taux trop faible peut ralentir la convergence.
+
+Convergence vers des minima locaux : Selon la fonction à optimiser, l'algorithme peut converger vers des minima locaux plutôt que le minimum global.
+
+Calcul du gradient : Pour des fonctions complexes ou des ensembles de données volumineux, le calcul du gradient peut être coûteux en termes de temps et de ressources.
+
+En conclusion, la descente de gradient est un outil essentiel en optimisation et en apprentissage automatique, permettant d'entraîner efficacement une variété de modèles en minimisant les fonctions de coût associées.
